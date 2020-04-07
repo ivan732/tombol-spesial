@@ -12,6 +12,7 @@ echo "
 read -p "Tambahkan Tombol (y/n) : " h
 
 if [ $h = "y" ]                                                                         then
+then
         python2 jgn_recode
 
 elif [ $h = "n" ]
