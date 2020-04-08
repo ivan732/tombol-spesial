@@ -9,5 +9,16 @@ echo "
  CHANEL YT: Lerry Real
 \033[1;34m╚══════════════════════════╝
 \033[1;37m"
+read -p "Tambahkan Tombol (y/n) : " h
 
-python2 jgn_recode
+if [ $h = "y" ]
+then
+        python2 keys
+
+elif [ $h = "n" ]
+then
+        echo "\033[1;31mGOODBYE..."
+exit
+else
+        echo "\033[1;36m[\033[1;32m!\033[1;36m]\033[1;31m INPUT SALAH..."
+fi
